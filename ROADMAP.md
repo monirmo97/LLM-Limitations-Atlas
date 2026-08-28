@@ -1,79 +1,91 @@
 # Roadmap
 
-## Phase 0 — Setup and research protocol
+The course and research project use a fixed Stage 0–6 teaching backbone plus a parallel 2020–2026 literature-census layer.
 
-- Finalize taxonomy.
-- Finalize inclusion/exclusion rules.
-- Define search sources and queries.
-- Define metadata schema and deduplication rules.
-- Establish the daily one-hour workflow.
+## Stage 0 — Mental framework
 
-## Phase 1 — Historical foundations: 2020–2021
+Goal: build the world map needed before limitation-specific papers.
 
-Goal: understand how limitations were framed before "LLM limitations" became a common label.
+- How information flows through an LLM system
+- Where limitations can originate
+- How failures at different layers can be confused
+- How limitation claims should be evaluated scientifically
 
-Topics include early evidence on scale, few-shot behavior, factuality, memorization, bias, robustness, and evaluation.
+## Stage 1 — Historical foundations
 
-## Phase 2 — Core capability limitations
+Goal: understand how modern LLMs and modern limitation research emerged from 2020–2022.
 
-Study category-first and chronology-second:
+- 2020
+- 2021
+- 2022
+- Transition from large pretrained language models to modern instruction-following LLM systems
+- Evolution of limitation claims and evaluation methods
 
-1. Reasoning & problem solving
-2. Generalization & compositionality
-3. Factuality & hallucination
-4. Knowledge boundaries & outdated knowledge
-5. Context & memory
-6. Uncertainty, calibration & self-verification
-7. Prompt sensitivity & instruction following
-8. Grounding, causal & world understanding
-9. Multilingual & cultural limitations
-10. Multimodal limitations
+## Stage 2 — Core behavioral limitations
 
-For each category:
+- Reasoning
+- Generalization
+- Hallucination / factuality
+- Calibration / uncertainty
+- Context & memory
+- Grounding / causal understanding
 
-- build a chronological paper map (2020–2026 where applicable);
-- identify foundational papers;
-- identify strongest empirical evidence;
-- identify surveys and taxonomies;
-- identify replications and contradictory results;
-- identify frontier 2025–2026 papers;
-- write a category synthesis.
+For each major topic, build an evidence map covering foundational work, strong empirical evidence, replication/extension, counter-evidence, modern-model reassessment, mitigation, and frontier evidence.
 
-## Phase 3 — Learning and control limitations
+## Stage 3 — Interaction + learning/control
 
-11. Alignment & controllability
-12. Knowledge editing
-13. Forgetting & unlearning
-14. Agentic planning & tool-use reliability
+- Prompt sensitivity
+- Multilingual / cultural
+- Multimodal
+- Alignment / controllability
+- Knowledge editing
+- Forgetting / unlearning
 
-## Phase 4 — Safety and societal limitations
+## Stage 4 — Systems + safety
 
-15. Bias & fairness
-16. Security, jailbreaks & adversarial attacks
-17. Privacy, memorization & data leakage
+- Agents / planning
+- RAG / tool use
+- Bias / fairness
+- Security / jailbreaks
+- Privacy / memorization
+- Efficiency / cost
 
-## Phase 5 — System and evaluation limitations
+## Stage 5 — Evaluation
 
-18. Computational cost & efficiency
-19. Benchmark contamination
-20. Evaluation validity
+- Benchmark contamination
+- Benchmark validity
+- Shortcut success
+- LLM judges
+- Evaluation reliability
 
-## Phase 6 — Global synthesis
+## Stage 6 — Integrated synthesis
 
-Create:
+Create and defend an integrated account of:
 
-- the final map of LLM limitations;
-- chronology 2020–2026;
-- what scaling improved;
-- what scaling did not solve;
-- disputed claims;
-- persistent limitations;
-- open research problems;
-- a final self-test from memory.
+- what was fixed or substantially improved;
+- what persists;
+- what is disputed;
+- what might be fundamental;
+- what remains unknown.
+
+Final outputs include the integrated limitation graph, chronology 2020–2026, disputed claims, persistent limitations, open research problems, and a recall/reconstruction test.
+
+## Parallel literature-census track
+
+Throughout all stages:
+
+- maintain reproducible search protocols;
+- collect candidate papers from multiple scholarly sources;
+- deduplicate and classify records;
+- record exclusions and coverage gaps;
+- reconcile against surveys and citation chains;
+- distinguish the broad census from the smaller deep-read set.
+
+Absolute literature completeness must not be claimed unless the documented search protocol justifies it.
 
 ## Completion criterion
 
 The atlas is not complete merely because the reading queue ends. Completion requires both:
 
-1. a documented, reproducible literature-coverage procedure; and
-2. the ability to explain the taxonomy, evidence, major papers, disagreements, and open problems without relying on notes.
+1. a documented, reproducible literature-coverage process; and
+2. the ability to reconstruct the limitation map, explain evidence and disagreements, and critically analyze a new limitation paper without relying on notes.
